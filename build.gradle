@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+    // id 'com.github.johnrengelman.shadow' version '7.1.2'
+}
+
+group 'committee.nova'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // implementation 'org.jetbrains:annotations:23.0.0'
+}
+
+// tasks.jar.dependsOn tasks.shadowJar
